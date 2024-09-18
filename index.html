@@ -15,20 +15,76 @@
 
 <body class="bg-gray-200 text-gray-900">
 <nav>
-    <div></div>
+    <div
+        class="w-full md:block md:w-auto"
+            id="navbar-dropdown"
+          >
+            <ul
+              class="flex flex-col top-10 font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-500 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                >
+                  Who am I?
+                </a>
+            </li>
+              <li>
+                <a
+                  href="#education"
+                  class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                >
+                  Education
+                </a>
+            </li>
+            <li>
+                <a
+                  href="#work"
+                  class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                >
+                  Work Experience
+                </a>
+            </li>
+              <li>
+                <a
+                  href="#projects"
+                  class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                >
+                  Projects
+                </a>
+            </li>
+              <li>
+                <a
+                  href="#blog"
+                  class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                >
+                  Blog
+                </a>
+            </li>
+            </ul>
+    </div>
 </nav>
-    <div class="container mx-auto mt-10 p-6 bg-white rounded-lg shadow-lg" x-data="{ showDetails: false }">
+    <div class="container mx-auto mt-10 p-6 bg-white rounded-lg shadow-lg">
         <div class="flex items-center justify-between">
             <div>
                 <h1 class="text-4xl font-bold text-olive-800">Rorisang Masilo</h1>
                 <p class="text-gray-600">Junior Software Developer</p>
             </div>
-            <button class="bg-olive-600 text-white py-2 px-4 rounded hover:bg-olive-700" @click="showDetails = !showDetails">
+            <!-- <button class="bg-olive-600 text-white py-2 px-4 rounded hover:bg-olive-700" @click="showDetails = !showDetails">
                 {{ showDetails ? 'Hide' : 'Show' }} Details
-            </button>
+            </button> -->
         </div>
 
-        <div x-show="showDetails" class="mt-6 space-y-4">
+        <div class="mt-6 space-y-4">
             <!-- Profile Overview -->
             <div>
                 <h2 class="text-2xl font-semibold text-olive-800">Profile Overview</h2>
@@ -37,7 +93,20 @@
                 </p>
             </div>
 
+            <!-- Academic History -->
+            <section id="education">
+            <div>
+                <h2 class="text-2xl font-semibold text-olive-800">Academic History</h2>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li><strong>Certificate in Software Engineering</strong> - CodeSpace Academy (2024-2025)</li>
+                    <li><strong>Postgraduate Diploma in Business Administration</strong> - Gordon Institute of Business Science (2022-2023)</li>
+                    <li><strong>BCom Human Resources Management</strong> - North-West University (2016-2019)</li>
+                </ul>
+            </div>
+        </section>
+
             <!-- Career History -->
+        <section id="work">
             <div>
                 <h2 class="text-2xl font-semibold text-olive-800">Career History</h2>
                 <ul class="list-disc list-inside text-gray-700">
@@ -47,16 +116,7 @@
                     <li><strong>Human Resources Intern</strong> - Nestlé South Africa (2020)</li>
                 </ul>
             </div>
-
-            <!-- Academic History -->
-            <div>
-                <h2 class="text-2xl font-semibold text-olive-800">Academic History</h2>
-                <ul class="list-disc list-inside text-gray-700">
-                    <li><strong>Certificate in Software Engineering</strong> - CodeSpace Academy (2024-2025)</li>
-                    <li><strong>Postgraduate Diploma in Business Administration</strong> - Gordon Institute of Business Science (2022-2023)</li>
-                    <li><strong>BCom Human Resources Management</strong> - North-West University (2016-2019)</li>
-                </ul>
-            </div>
+        </section>
 
             <!-- Projects -->
             <div>
