@@ -11,8 +11,8 @@ Welcome to my personal portfolio website! This project is a digital showcase of 
 
 ## 🌐 Live Preview
 Hosted on: 
-- Netlify - https://rorisang-masilo-profile.netlify.app/
-- Github Pages - https://rorisangmasilo.github.io/Rorisang-Masilo-Profile/
+- Netlify - [https://rorisang-masilo-profile.netlify.app/]
+- Github Pages - [https://rorisangmasilo.github.io/Rorisang-Masilo-Profile/]
 
 ---
 
