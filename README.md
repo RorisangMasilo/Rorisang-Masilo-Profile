@@ -1,7 +1,9 @@
 # Rorisang Masilo – Personal Portfolio Website
 
 ---
-**App link:** https://rorisang-masilo-profile.netlify.app/
+**Site links:** 
+- Netlify - https://rorisang-masilo-profile.netlify.app/
+- Github Pages - https://rorisangmasilo.github.io/Rorisang-Masilo-Profile/
 
 ---
 ## 🙋‍♀️ About Me
