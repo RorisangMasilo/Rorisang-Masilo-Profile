@@ -1,11 +1,6 @@
 # Rorisang Masilo – Personal Portfolio Website
 
 ---
-**Site links:** 
-- Netlify - https://rorisang-masilo-profile.netlify.app/
-- Github Pages - https://rorisangmasilo.github.io/Rorisang-Masilo-Profile/
-
----
 ## 🙋‍♀️ About Me
 
 Hi! I'm **Rorisang Masilo** — a passionate HR & tech enthusiast with a BCom in Human Resources Management and a Postgrad in Business Admin. I’ve worked across tech recruitment, employee relations, and business operations. I’m currently pivoting into the world of software development!
@@ -15,7 +10,9 @@ Hi! I'm **Rorisang Masilo** — a passionate HR & tech enthusiast with a BCom in
 Welcome to my personal portfolio website! This project is a digital showcase of my professional background, career journey, projects, and contact details—all designed with a calm and elegant grey/pink color palette and interactive features.
 
 ## 🌐 Live Preview
-Hosted on [Netlify / GitHub Pages / your-link-here] – Coming soon!
+Hosted on: 
+- Netlify - https://rorisang-masilo-profile.netlify.app/
+- Github Pages - https://rorisangmasilo.github.io/Rorisang-Masilo-Profile/
 
 ---
 
