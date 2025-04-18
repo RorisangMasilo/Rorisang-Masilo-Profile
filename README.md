@@ -41,7 +41,7 @@ Hosted on [Netlify / GitHub Pages / your-link-here] – Coming soon!
 ## 📁 Project Structure
 /portfolio/ 
 ├── profile.html 
-├── Rorisang_Masilo_Updated_CV.pdf 
+├── Rorisang_Masilo_CV.pdf 
 ├── README.md
 ├── Assets/
     ├── Favicon
