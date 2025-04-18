@@ -125,14 +125,38 @@
       gap: 1rem;
     }
 
-    .project-grid img {
+    .project-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .project-item img {
       width: 100%;
       border-radius: 10px;
       transition: transform 0.3s ease;
     }
 
-    .project-grid img:hover {
+    .project-item img:hover {
       transform: scale(1.05);
+   
+    }
+
+    .project-desc {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0,0,0,0.7);
+      color: white;
+      padding: 0.5rem;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      font-size: 0.9rem;
+    }
+
+    .project-item:hover .project-desc {
+      opacity: 1;
     }
 
     footer {
@@ -196,12 +220,30 @@
     <div class="card">
       <h2>Project Showcase</h2>
       <div class="project-grid">
-        <img src="project1.jpg" alt="KMGT">
+        <div class="project-item">
+          <img src="project1.jpg" alt="KMGT">
+          <div class="project-desc">KMGT: Vue.js construction and civil engineering website.</div>
+        </div>
+        <div class="project-item">
         <img src="BankNative.png" alt="BankNative">
+        <div class="project-desc">BankNative: React Native banking application.</div>
+        </div>
+        <div class="project-item">
         <img src="mereko-waka.png" alt="Mereko Waka">
+        <div class="project-desc">Mereko Waka: React.js business directory website</div>
+        </div>
+        <div class="project-item">
         <img src="project4.jpg" alt="Treats & Co">
-        <img src="project5.jpg" alt="CannaAfra">
+        <div class="project-desc">Treats & Co: Alpine.js bakery business website</div>
+        </div>
+        <div class="project-item">
+        <img src="project5.jpg" alt="WellNess">
+        <div class="project-desc">WellNess: Knowledge management tool for HR insights.</div>
+        </div>
+        <div class="project-item">
         <img src="project6.jpg" alt="EduBakwena">
+        <div class="project-desc">EduBakwena: Python Educational CRM tool</div>
+        </div>
       </div>
     </div>
   </section>
