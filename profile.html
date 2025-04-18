@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rorisang Masilo | Portfolio</title>
+  <link rel="icon" type="image/png" href="favicon-rori.png" />
+  <style>
+    :root {
+      --primary: #f2e8ec;
+      --accent: #b68cb8;
+      --text: #2c2c2c;
+      --background: #fafafa;
+      --card: #ffffff;
+      --muted: #999;
+    }
+
+    [data-theme="dark"] {
+      --primary: #1f1f1f;
+      --accent: #d89cd8;
+      --text: #f2f2f2;
+      --background: #121212;
+      --card: #1e1e1e;
+      --muted: #aaa;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+      transition: background 0.3s, color 0.3s;
+    }
+
+    header {
+      background-color: var(--primary);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 3px solid var(--accent);
+    }
+
+    header h1 {
+      margin: 0;
+      color: var(--accent);
+    }
+
+    .navbar {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: var(--accent);
+      font-weight: bold;
+    }
+
+    .menu-toggle {
+      display: none;
+      cursor: pointer;
+    }
+
+    .theme-toggle {
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        display: none;
+      }
+
+      .navbar.active {
+        display: flex;
+      }
+
+      .menu-toggle {
+        display: block;
+      }
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: var(--card);
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .project-grid img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .project-grid img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .social-links a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rorisang</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+    <nav class="navbar">
+      <a href="#about">About</a>
+      <a href="#cv">CV</a>
+      <a href="#projects">Projects</a>
+      <a href="#work-experience">Work Experience</a>
+      <a href="education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="theme-toggle" onclick="toggleTheme()">&#9788;</div>
+  </header>
+
+  <section id="about">
+    <div class="card" style="text-align: center;">
+      <img class="profile-img" src="https://media.licdn.com/dms/image/D4E03AQFJxH-random-profile-photo-url.jpg" alt="Rorisang Masilo Profile Photo">
+      <h2>About Me</h2>
+      <p>
+        I am a results-driven HR and admin professional with a BCom in Human Resources and a PGDip in Business Administration. I bring experience in tech recruitment, employee relations, and programme coordination. Currently expanding into software development.
+      </p>
+    </div>
+  </section>
+
+  <section id="cv">
+    <div class="card">
+      <h2>Curriculum Vitae</h2>
+      <ul>
+        <li><strong>Education:</strong> BCom HRM | PGDip Business Admin</li>
+        <li><strong>Latest Role:</strong> Recruitment Support Assistant at Lesedi</li>
+        <li><strong>Key Skills:</strong> Talent Coordination, Administration, Tech Recruitment</li>
+        <li><a href="https://www.linkedin.com/in/rorisang-masilo/" target="_blank">LinkedIn Profile</a></li>
+        <li><a href="Rorisang_Masilo_Updated_CV.pdf" download>Download CV (PDF)</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="card">
+      <h2>Project Showcase</h2>
+      <div class="project-grid">
+        <img src="project1.jpg" alt="Project 1">
+        <img src="project2.jpg" alt="Project 2">
+        <img src="project3.jpg" alt="Project 3">
+        <img src="project4.jpg" alt="Project 4">
+        <img src="project5.jpg" alt="Project 5">
+        <img src="project6.jpg" alt="Project 6">
+      </div>
+    </div>
+  </section>
+
+  <section id="work-experience">
+
+  </section>
+
+  <section id="education">
+
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:rbmasilo@gmail.com">rbmasilo@gmail.com</a></p>
+      <p>Phone: +27 81 764 7861</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/rorisang-masilo/" target="_blank">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Rorisang Masilo | Designed with calm & professionalism in mind.
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      document.documentElement.setAttribute('data-theme', currentTheme === 'dark' ? 'light' : 'dark');
+    }
+
+    function toggleMenu() {
+      document.querySelector('.navbar').classList.toggle('active');
+    }
+
+    document.querySelectorAll('nav a').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+        document.querySelector('.navbar').classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>
