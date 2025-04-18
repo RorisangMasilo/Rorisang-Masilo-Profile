@@ -8,9 +8,9 @@
   <style>
     :root {
       --primary: #f2e8ec;
-      --accent: #b68cb8;
+      --accent: #a23da7;
       --text: #2c2c2c;
-      --background: #fafafa;
+      --background: #d3d3d3;
       --card: #ffffff;
       --muted: #999;
     }
@@ -30,6 +30,11 @@
       background-color: var(--background);
       color: var(--text);
       transition: background 0.3s, color 0.3s;
+    }
+
+    logo {
+      width: 5px;
+      height: 5px;
     }
 
     header {
@@ -58,7 +63,7 @@
     }
 
     .navbar a:hover {
-      color: darkslategrey;
+      color: darkgrey;
     }
 
     .menu-toggle {
@@ -139,6 +144,7 @@
 </head>
 <body>
   <header>
+    <img class="logo" src="favicon-rori.png" alt="Rori logo">
     <h1>Rorisang</h1>
     <!-- Navigation -->
     <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
@@ -159,7 +165,7 @@
       <img class="profile-img" src="rorisang-masilo.jpg" alt="Rorisang Masilo Profile Photo">
       <h2>About Me</h2>
       <p>
-        I am a results-driven HR and admin professional with a BCom in Human Resources and a PGDip in Business Administration. I bring experience in tech recruitment, employee relations, and programme coordination. Currently expanding into software development.
+        Hi, I'm Rorisang Masilo and I am a results-driven HR and admin professional with a BCom in Human Resources Management and a PGDip in Business Administration. I bring experience in tech recruitment, employee relations, and programme coordination. Currently expanding into software development.
       </p>
     </div>
   </section>
