@@ -8,6 +8,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     :root {
       --primary: #f2e8ec;
@@ -166,10 +167,15 @@
       color: var(--muted);
     }
 
-    .social-links a {
+    .social-links i {
+      font-size: 1.5rem;
       margin-right: 1rem;
-      text-decoration: none;
       color: var(--accent);
+      transition: color 0.3s;
+    }
+    
+    .social-links i:hover {
+      color: #555;
     }
   </style>
 </head>
@@ -314,12 +320,26 @@
   <section id="contact">
     <div class="card">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:rbmasilo@gmail.com">rbmasilo@gmail.com</a></p>
       <p>Phone: +27 81 764 7861</p>
       <div class="social-links">
-        <a href="https://www.linkedin.com/in/rorisang-masilo/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/RorisangMasilo">GitHub</a>
-        <a href="#">X/Twitter</a>
+        <a href="mailto:rbmasilo@gmail.com" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/rorisang-masilo/" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/RorisangMasilo" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://x.com/yourhandle" target="_blank" title="X (formerly Twitter)">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a href="https://instagram.com/rorimasilo_za" target="_blank" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/27817647861" target="_blank" title="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
       </div>
     </div>
   </section>
