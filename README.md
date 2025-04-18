@@ -54,8 +54,8 @@ Hosted on:
 
 ## 📬 Contact Me
 
-📧 Email: rbmasilo@gmail.com  
-📞 Phone: +27 81 764 7861  
+📧 rbmasilo@gmail.com  
+📞 +27 81 764 7861  
 🌍 [LinkedIn](https://www.linkedin.com/in/rorisang-masilo)  
 💻 [GitHub](https://github.com/RorisangMasilo)  
 📸 [Instagram](https://instagram.com/rorimasilo_za)  
